@@ -1,0 +1,73 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
+*.out
+*.tmp
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS Specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# GDAL / Remote Sensing Aux Files
+# =========================
+*.tif.aux.xml
+*.aux
+*.ovr
+*.xml~
+*.tfw
+*.wld
+
+# =========================
+# Data / Outputs
+# =========================
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+
+# Ignore large geospatial outputs
+*.tif
+*.tiff
+
+# Keep only INPUT training data if needed
+!ChangeFormer/TEST_DATA/**/A/*.tif
+!ChangeFormer/TEST_DATA/**/B/*.tif
+!ChangeFormer/TEST_DATA/**/label/*.tif
+
+# =========================
+# Build / Node
+# =========================
+node_modules/
+dist/
+build/
+.cache/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/

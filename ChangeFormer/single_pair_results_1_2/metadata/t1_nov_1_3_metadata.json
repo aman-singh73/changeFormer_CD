@@ -1,0 +1,66 @@
+{
+  "image_id": "t1_nov_1_3",
+  "original_filename": "t1_nov_1_3.tif",
+  "processing_timestamp": "2025-09-09T12:21:22.537083",
+  "img1_metadata": {
+    "shape": [
+      4,
+      256,
+      256
+    ],
+    "dtype": "float32",
+    "crs": "EPSG:32643",
+    "transform": [
+      1.1,
+      0.0,
+      736824.435681,
+      0.0,
+      -1.1,
+      3167704.983586,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "bounds": [
+      736824.435681,
+      3167423.3835859997,
+      737106.035681,
+      3167704.983586
+    ],
+    "nodata": 0.0
+  },
+  "img2_metadata": {
+    "shape": [
+      4,
+      256,
+      256
+    ],
+    "dtype": "float32",
+    "crs": "EPSG:32643",
+    "transform": [
+      1.1006951078247234,
+      0.0,
+      736825.2735592063,
+      0.0,
+      -1.1006951078247234,
+      3167704.026671,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "bounds": [
+      736825.2735592063,
+      3167422.2487233966,
+      737107.0515068094,
+      3167704.026671
+    ],
+    "nodata": 0.0
+  },
+  "results": {
+    "raw_change_pixels": 0,
+    "processed_change_pixels": 0,
+    "total_pixels": 65536,
+    "raw_change_percent": 0.0,
+    "processed_change_percent": 0.0
+  }
+}

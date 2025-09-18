@@ -1,0 +1,43 @@
+CHANGEFORMER PROCESSING REPORT
+========================================
+
+Generated: 2025-09-12 10:12:35
+Device: cuda
+Model: D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\modifiedAUG_weight\ChangeFormer_CV_Heavy_MultiSpectral_248\Fold_1_ChangeFormerV6_Enhanced_CV_Heavy_MultiSpectral_248_Fold1_Heavy5x\best_ckpt.pt
+Input A: D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\TEST_DATA\A
+Input B: D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\TEST_DATA\B
+Output: ./batch_unseen_data_results
+
+STATISTICS
+---------------
+Total pairs: 22
+Processed: 15
+Failed: 7
+Success rate: 68.2%
+Total time: 53.66s
+Average time: 3.58s
+
+RESULTS
+----------
+  1. nov_1_1: 0.98% change
+  2. nov_1_2: 2.32% change
+  3. nov_1_3: 1.63% change
+  4. nov_1_4: 4.41% change
+  5. nov_2_1: 0.69% change
+  6. nov_2_2: 1.81% change
+  7. nov_3_1: 0.93% change
+  8. nov_3_2: 2.08% change
+  9. nov_3_3: 0.97% change
+ 10. nov_3_4: 5.33% change
+ 11. nov_4_1: 3.42% change
+ 12. nov_4_2: 2.12% change
+ 13. nov_4_3: 2.41% change
+ 14. nov_4_4: 3.76% change
+ 15. nov_5_1: 0.00% change
+
+SUMMARY
+----------
+Average change: 2.19%
+Median change: 2.08%
+Min change: 0.00%
+Max change: 5.33%

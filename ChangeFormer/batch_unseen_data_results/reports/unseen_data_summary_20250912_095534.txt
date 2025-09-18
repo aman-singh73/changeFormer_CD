@@ -1,0 +1,18 @@
+CHANGEFORMER UNSEEN DATA PROCESSING REPORT
+============================================================
+
+Generated: 2025-09-12 09:55:34
+Device Used: cuda
+Model Path: D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\modifiedAUG_weight\ChangeFormer_CV_Heavy_MultiSpectral_248\Fold_1_ChangeFormerV6_Enhanced_CV_Heavy_MultiSpectral_248_Fold1_Heavy5x\best_ckpt.pt
+Input Directory A: D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\TEST_DATA\A
+Input Directory B: D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\TEST_DATA\B
+Output Directory: ./batch_unseen_data_results
+
+PROCESSING STATISTICS
+-------------------------
+Total Image Pairs Found: 22
+Successfully Processed: 0
+Failed: 22
+Success Rate: 0.0%
+Total Processing Time: 0.01 seconds
+

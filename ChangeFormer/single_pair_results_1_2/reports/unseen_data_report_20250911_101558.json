@@ -1,0 +1,81 @@
+{
+  "total_pairs": 1,
+  "processed_pairs": 1,
+  "failed_pairs": 0,
+  "total_processing_time": 3.9679651260375977,
+  "results": [
+    {
+      "image_id": "t1_nov_4_2",
+      "original_filename": "t1_nov_4_2.tif",
+      "raw_change_pixels": 4158,
+      "processed_change_pixels": 4108,
+      "total_pixels": 65536,
+      "raw_change_percent": 6.3446044921875,
+      "processed_change_percent": 6.268310546875,
+      "postprocess_effect": -0.0762939453125,
+      "img1_metadata": {
+        "shape": [
+          4,
+          256,
+          256
+        ],
+        "dtype": "float32",
+        "crs": "EPSG:32643",
+        "transform": [
+          1.1,
+          0.0,
+          736542.835681,
+          0.0,
+          -1.1,
+          3166860.183586,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "bounds": [
+          736542.835681,
+          3166578.583586,
+          736824.435681,
+          3166860.183586
+        ],
+        "nodata": 0.0
+      },
+      "img2_metadata": {
+        "shape": [
+          4,
+          256,
+          256
+        ],
+        "dtype": "float32",
+        "crs": "EPSG:32643",
+        "transform": [
+          1.1006951078247234,
+          0.0,
+          736543.4956116031,
+          0.0,
+          -1.1006951078247234,
+          3166858.6928281905,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "bounds": [
+          736543.4956116031,
+          3166576.9148805873,
+          736825.2735592063,
+          3166858.6928281905
+        ],
+        "nodata": 0.0
+      },
+      "processing_time": 3.9679651260375977,
+      "filename": "t1_nov_4_2.tif"
+    }
+  ],
+  "data_info": {
+    "data_dir_A": "./single_pair_results_1_2\\temp_A",
+    "data_dir_B": "./single_pair_results_1_2\\temp_B",
+    "output_dir": "./single_pair_results_1_2",
+    "model_path": "D:\\Aman_kr_Singh\\NEW_OSCD\\ChangeFormer\\checkpoints\\ChangeFormer_CV_Heavy_MultiSpectral\\Fold_1_ChangeFormerV6_Enhanced_CV_Heavy_MultiSpectral_216_Fold1_Heavy5x\\best_ckpt.pt",
+    "processing_date": "2025-09-11T10:15:54.163710"
+  }
+}

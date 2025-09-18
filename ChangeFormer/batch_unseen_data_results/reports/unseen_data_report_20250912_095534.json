@@ -1,0 +1,14 @@
+{
+  "total_pairs": 22,
+  "processed_pairs": 0,
+  "failed_pairs": 22,
+  "total_processing_time": 0.008998632431030273,
+  "results": [],
+  "data_info": {
+    "data_dir_A": "D:\\Aman_kr_Singh\\NEW_OSCD\\ChangeFormer\\TEST_DATA\\A",
+    "data_dir_B": "D:\\Aman_kr_Singh\\NEW_OSCD\\ChangeFormer\\TEST_DATA\\B",
+    "output_dir": "./batch_unseen_data_results",
+    "model_path": "D:\\Aman_kr_Singh\\NEW_OSCD\\ChangeFormer\\modifiedAUG_weight\\ChangeFormer_CV_Heavy_MultiSpectral_248\\Fold_1_ChangeFormerV6_Enhanced_CV_Heavy_MultiSpectral_248_Fold1_Heavy5x\\best_ckpt.pt",
+    "processing_date": "2025-09-12T09:55:34.243574"
+  }
+}

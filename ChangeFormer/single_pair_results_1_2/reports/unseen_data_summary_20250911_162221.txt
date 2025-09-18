@@ -1,0 +1,52 @@
+CHANGEFORMER UNSEEN DATA PROCESSING REPORT
+============================================================
+
+Generated: 2025-09-11 16:22:21
+Device Used: cuda
+Model Path: D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\checkpoints\ChangeFormer_CV_Heavy_MultiSpectral\Fold_1_ChangeFormerV6_Enhanced_CV_Heavy_MultiSpectral_248_Fold1_Heavy5x\best_ckpt.pt
+Input Directory A: ./single_pair_results_1_2\temp_A
+Input Directory B: ./single_pair_results_1_2\temp_B
+Output Directory: ./single_pair_results_1_2
+
+PROCESSING STATISTICS
+-------------------------
+Total Image Pairs Found: 1
+Successfully Processed: 1
+Failed: 0
+Success Rate: 100.0%
+Total Processing Time: 3.80 seconds
+Average Time per Pair: 3.80 seconds
+
+INDIVIDUAL RESULTS
+--------------------
+
+  1. Image ID: patch_00268_T1
+     File: patch_00268_T1.tif
+     Processing Time: 3.80s
+     Raw Change Area: 6.36%
+     Processed Change Area: 6.24%
+     Postprocess Effect: -0.12%
+
+CHANGE DETECTION SUMMARY STATISTICS
+-----------------------------------
+Change Area Statistics:
+  Average: 6.24%
+  Median: 6.24%
+  Minimum: 6.24%
+  Maximum: 6.24%
+  Std Deviation: 0.00%
+
+Postprocessing Effect Statistics:
+  Average Effect: -0.12%
+  Median Effect: -0.12%
+  Min Effect: -0.12%
+  Max Effect: -0.12%
+
+CHANGE CATEGORIZATION
+--------------------
+High Change (>5%): 1 images
+Medium Change (1-5%): 0 images
+Low Change (<1%): 0 images
+
+High Change Images:
+  � patch_00268_T1: 6.24%
