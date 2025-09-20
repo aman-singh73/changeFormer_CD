@@ -1,3 +1,5 @@
+## Run this to rename files in A & B folders sequentially from 0000.tif to n.tif
+
 # import os
 
 # def rename_files_in_order(folder_path):
@@ -28,7 +30,7 @@
 # rename_files_in_order(folder_B)
 
 
-
+## Run this to rename files in label folder sequentially from 0000.tif to n.tif
 # import os
 
 # # Update your label folder path here
@@ -52,54 +54,46 @@
 
 # print("✅ Label files renamed successfully!")
 
-import os
-import random
-
-# Path to your dataset (use A folder since names are the same for B & labels)
-dataset_folder = r"D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\data\cartoCustom\A"
-
-# Output paths for train.txt and val.txt
-output_train = r"D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\data\cartoCustom\list/train.txt"
-output_val = r"D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\data\cartoCustom\list/val.txt"
-
-# Get all .tif file names
-all_files = sorted([f for f in os.listdir(dataset_folder) if f.lower().endswith(".tif")])
-
-# Shuffle for randomness
-random.seed(42)  # Fix seed for reproducibility
-random.shuffle(all_files)
-
-# 70/30 split ✅
-split_index = int(len(all_files) * 0.8)
-train_files = all_files[:split_index]
-val_files = all_files[split_index:]
-
-# Save train.txt with .tif filenames
-with open(output_train, "w") as f:
-    for name in train_files:
-        f.write(name + "\n")
-
-# Save val.txt with .tif filenames
-with open(output_val, "w") as f:
-    for name in val_files:
-        f.write(name + "\n")
-
-print(f"✅ Train/Val split created successfully!")
-print(f"Total files      : {len(all_files)}")
-print(f"Training files   : {len(train_files)}")
-print(f"Validation files : {len(val_files)}")
-print(f"train.txt saved at: {output_train}")
-print(f"val.txt saved at  : {output_val}")
-
-
+## Run this to create train.txt and val.txt with 80/20 split from A folder filenames
 
 # import os
+# import random
 
-# for txt_file in ["train.txt", "val.txt"]:
-#     path = rf"D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\data\cartoCustom\list\{txt_file}"
-#     if os.path.exists(path):
-#         with open(path, "r") as f:
-#             names = [line.strip().replace(".png", "") for line in f]
-#         with open(path, "w") as f:
-#             f.write("\n".join(names))
-#         print(f"Updated {txt_file}: {len(names)} names")
+# # Path to your dataset (use A folder since names are the same for B & labels)
+# dataset_folder = r"D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\data\cartoCustom\A"
+
+# # Output paths for train.txt and val.txt
+# output_train = r"D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\data\cartoCustom\list/train.txt"
+# output_val = r"D:\Aman_kr_Singh\NEW_OSCD\ChangeFormer\data\cartoCustom\list/val.txt"
+
+# # Get all .tif file names
+# all_files = sorted([f for f in os.listdir(dataset_folder) if f.lower().endswith(".tif")])
+
+# # Shuffle for randomness
+# random.seed(42)  # Fix seed for reproducibility
+# random.shuffle(all_files)
+
+# # 70/30 split ✅
+# split_index = int(len(all_files) * 0.8)
+# train_files = all_files[:split_index]
+# val_files = all_files[split_index:]
+
+# # Save train.txt with .tif filenames
+# with open(output_train, "w") as f:
+#     for name in train_files:
+#         f.write(name + "\n")
+
+# # Save val.txt with .tif filenames
+# with open(output_val, "w") as f:
+#     for name in val_files:
+#         f.write(name + "\n")
+
+# print(f"✅ Train/Val split created successfully!")
+# print(f"Total files      : {len(all_files)}")
+# print(f"Training files   : {len(train_files)}")
+# print(f"Validation files : {len(val_files)}")
+# print(f"train.txt saved at: {output_train}")
+# print(f"val.txt saved at  : {output_val}")
+
+
+
