@@ -332,7 +332,7 @@ For your reference, I have also attached the inks to original LEVIR-CD and DSIFN
 
 ### Other useful notes
 #### ChangeFormer for multi-class change detection
-If you wish to use ChangeFormer for multi-class change detection, you will need to make a few modifications to the existing codebase, which is designed for binary change detection. There are many discussions in the issues section. The required modifications are (https://github.com/wgcban/ChangeFormer/issues/93#issuecomment-1918609871):
+If you wish to use ChangeFormer for multi-class change detection, you will need to make a few modifications to the existing codebase, which is designed for binary change detection.
 1. `run_ChangeFormer_cd.sh`: n_class=8 and make it a hyperparameter to python main.py
 2. `models/networks.py`: net = ChangeFormerV6(embed_dim=args.embed_dim, output_nc=args.n_class)
 3. `models/basic_model.py`: Comment out: pred_vis = pred * 255, i.e., modifications to visualisation processing
