@@ -6,7 +6,7 @@
 
 ## 🛰️ Cartosat-3 Implementation Overview
 
-This implementation has been specifically adapted and trained for **Cartosat-3** satellite data with **0.7-0.8m resolution**, providing superior change detection capabilities for high-resolution satellite imagery.
+This implementation has been specifically adapted and trained for **Cartosat-3** satellite data with **0.2-0.3m resolution**, providing superior change detection capabilities for high-resolution satellite imagery.
 
 ### Key Features of This Implementation:
 - **Pre-trained Foundation**: Initialized with LEVIR-CD weights trained on ~10,192 aerial images
