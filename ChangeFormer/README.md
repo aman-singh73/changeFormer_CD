@@ -138,10 +138,12 @@ Useful links:
 - Unsupervised Change Detection: [Metric-CD](https://github.com/wgcban/Metric-CD)
 
 ## Network Architecture
-![image-20210228153142126](./images/IGARS_ChangeFormer.jpeg)
+<img width="1003" height="393" alt="image" src="https://github.com/user-attachments/assets/f63ca291-2d91-46e5-83f2-c5ce422d0ea2" />
+
 
 ## Quantitative & Qualitative Results on LEVIR-CD and DSIFN-CD
-![image-20210228153142126](./images/IGARS_ChangeFormer-LEVIR_DSFIN_both.png)
+<img width="1346" height="890" alt="image" src="https://github.com/user-attachments/assets/68de40a1-a938-4b35-bbfb-ca1ed1f3a3fb" />
+
 
 # Usage
 ## Requirements
